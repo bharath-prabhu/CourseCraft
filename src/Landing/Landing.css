@@ -1,0 +1,47 @@
+.landing-container {
+ 
+  
+  height: 100vh;
+  background-color: #f9f9f9;
+}
+
+.land-h1 {
+  margin-right: 600px;
+  font-size:50px;
+  margin-top: 200px;
+  color: rgb(45, 102, 146);
+}
+.land-h2{
+  margin-right: 700px;
+  color: rgb(45, 102, 146);
+  margin-top: -65px;
+  font-size:50px;
+}
+.land-h3{
+  margin-right: 370px;
+  color: rgb(6, 6, 6);
+  margin-top: -40px;
+  font-size:20px;
+}
+.land-h4{
+  margin-right: 560px;
+  color: rgb(6, 6, 6);
+  margin-top: -10px;
+  font-size:20px;
+}
+.land-btn{
+  margin-right: 800px;
+  color: rgb(252, 249, 249);
+  margin-top: 10px;
+  font-size:20px;
+  height: 80px;
+  width: 200px;
+  border-radius: 15px;
+}
+.landing-src{
+  height: 100px;
+  margin-left: 900px;
+  margin-top: -10000px;
+  height: 400px;
+  border-radius: 20px;
+}

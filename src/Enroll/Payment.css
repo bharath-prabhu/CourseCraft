@@ -1,0 +1,144 @@
+/* Overall page styling */
+.payment-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #f0f2f5;
+    border: 1px solid white;
+    margin-top: 0;
+}
+
+/* Header styling */
+.payment-header {
+    background-color: #161A30;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.payment-header h1{
+    color: #f0f2f5;
+}
+
+/* Content styling */
+.payment-content {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+    gap: 20px;
+}
+
+/* Payment methods section */
+.payment-methods {
+    flex: 1;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-methods h2 {
+    margin-bottom: 20px;
+}
+
+.payment-methods button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: white;
+    color: #3ca64a;
+    font-size: 1rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.payment-methods .active {
+    background-color: #3ca64a;
+    color: white;
+    border-color: #3ca64a;
+}
+
+/* Payment details section */
+.payment-details {
+    flex: 2;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-details .form-group {
+    margin-bottom: 20px;
+}
+
+.payment-details label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+    color: #31304D;
+}
+
+.payment-details input {
+    width: calc(100% - 22px); /* Adjust width to fit within padding */
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.payment-details input:focus {
+    border-color: #3ca64a;
+}
+
+/* Order summary section */
+.order-summary {
+    flex: 1;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+}
+
+.order-summary h2, .order-summary h3 {
+    color: #31304D;
+}
+
+.order-summary p {
+    font-size: 1rem;
+}
+
+/* Footer styling */
+.payment-footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    background-color: white;
+}
+
+.payment-button {
+    padding: 10px 20px;
+    background-color: #3ca64a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 15px;
+}
+
+.payment-button:hover {
+    background-color: #004494;
+}
+.MakePayment
+{
+    text-decoration: none;
+    color: white;
+}

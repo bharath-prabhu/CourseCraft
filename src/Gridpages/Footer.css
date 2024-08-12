@@ -1,0 +1,38 @@
+footer {
+  background-color: #2a5dc5;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  margin: 0 20px;
+  text-align: left;
+}
+
+.footer-section h3 {
+  font-size: 1.2em;
+}
+
+.social-icons {
+  display: flex;
+  padding: 0;
+}
+
+.social-icons li {
+  margin-right: 10px;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#icon {
+  padding: 10px;
+}

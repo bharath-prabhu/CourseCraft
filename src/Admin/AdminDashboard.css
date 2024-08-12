@@ -1,0 +1,74 @@
+/* AdminDashboard.css */
+
+.admin-dashboard {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .sidebar1 {
+    width: 250px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+  }
+  
+  .sidebar-icon {
+    margin-right: 10px;
+  }
+  
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .sidebar-item:hover {
+    background-color: #333;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .stat {
+    text-align: center;
+  }
+  
+  .charts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .pie-chart,
+  .line-chart {
+    width: 48%;
+  }
+  
+  .pie-chart canvas,
+  .line-chart canvas {
+    width: 100% !important;
+    height: auto !important;
+  }
+  
+  .line-chart {
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    position: relative;
+  }
+  

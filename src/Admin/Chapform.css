@@ -1,0 +1,44 @@
+/* Chapform.css */
+
+.chapform-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.chapform-title-form {
+  margin-bottom: 20px;
+}
+
+.chapform-task-section {
+  margin-bottom: 20px;
+}
+
+.chapform-overview {
+  margin-top: 20px;
+}
+
+.chapform-overview-section {
+  margin-bottom: 20px;
+}
+
+.chapform-submit-button {
+  width: 200px;
+  height: 60px;
+  background-color: #007bff;
+  color: white;
+  font-size: 18px;
+}
+
+.chapform-submit-button:hover {
+  background-color: #0056b3;
+}
+
+.chapform-dialog-title {
+  text-align: center;
+}
+
+.chapform-dialog-content {
+  padding: 20px;
+}

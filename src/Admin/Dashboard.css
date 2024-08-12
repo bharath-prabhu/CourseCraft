@@ -1,0 +1,52 @@
+.dashboard-container {
+  display: flex;
+  height: 100vh; /* Ensure the container takes full viewport height */
+}
+
+.dashboard-sidebar {
+  width: 250px;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: fixed; /* Fixed positioning for sidebar */
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  margin-bottom: 15px;
+  transition: background-color 0.3s, padding-left 0.3s;
+}
+
+.sidebar-item:hover {
+  background-color: #030303;
+  padding-left: 10px;
+}
+
+.sidebar-icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.dashboard-content {
+  margin-left: 250px; /* Margin to accommodate the sidebar width */
+  padding: 20px;
+  flex: 1; /* Flex-grow to take up remaining space */
+  overflow-y: auto; /* Scroll if content overflows */
+  background-color: #f5f5f5; /* Light background for content area */
+}
+
+.charts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.pie-chart, .line-chart {
+  width: 48%;
+}

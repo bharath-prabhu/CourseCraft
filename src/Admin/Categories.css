@@ -1,0 +1,114 @@
+.categories-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin-top: -700px;
+  }
+  
+  .categories-list {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .pie-chart {
+    flex: 1;
+    max-width: 500px; /* Adjust based on your preferred size */
+  }
+  
+  h1, h2 {
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .category-item {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  .add-category-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-category-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .modal-content form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal-content label {
+    margin-bottom: 10px;
+  }
+  
+  .modal-content input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .modal-content button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .modal-content button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+  }
+  
+  .modal-content button[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  .modal-content button[type="button"] {
+    background-color: #dc3545;
+    color: #fff;
+    margin-left: 10px;
+  }
+  
+  .modal-content button[type="button"]:hover {
+    background-color: #c82333;
+  }
+  

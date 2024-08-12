@@ -1,0 +1,15 @@
+.course-page {
+    margin-top: -700px; 
+    margin-left: 300px;
+  }
+  /* CoursePage.css */
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px; /* Adjust spacing from bottom if needed */
+}
+
+.filter-button {
+  margin: 0 10px; /* Adjust spacing between buttons */
+  padding: 10px 20px; /* Optional: Adjust padding for button size */
+}
